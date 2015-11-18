@@ -1,0 +1,26 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Hackathon Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nileshp87/hackathon.git"
+  },
+  "author": "Nilesh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nileshp87/hackathon/issues"
+  },
+  "homepage": "https://github.com/nileshp87/hackathon#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "braces": "^1.8.2",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "redis": "^2.3.0"
+  }
+}
