@@ -1,9 +1,1 @@
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
-(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})();
+!function(e){e(function(){e(".button-collapse").sideNav(),e(".parallax").parallax()})}(jQuery),function(){var e,a,l,t,s=document,c=s.getElementById,r=s.createElement,n=s.getElementsByTagName,o="typef_orm",i="https://s3-eu-west-1.amazonaws.com/share.typeform.com/";c.call(s,o)||(a=r.call(s,"script"),a.id=o,a.src=i+"share.js",l=n.call(s,"script")[0],l.parentNode.insertBefore(a,l)),o+="_",c.call(s,o)||(e=r.call(s,"link"),e.rel="stylesheet",e.id=o,e.href=i+"share-button.css",t=n.call(s,"head")[0],t.appendChild(e,t))}();
